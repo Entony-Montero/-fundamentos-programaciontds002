@@ -1,0 +1,19 @@
+# Notas del Primer Parcial
+
+**Nombre:** Entony Montero  
+**Matrícula:** 20251803
+
+## Diferencia entre int y double
+
+`int` se utiliza para almacenar números enteros, es decir, números que no tienen parte decimal. Por ejemplo: 10, 25 o 100.
+
+`double` se utiliza para almacenar números que pueden tener decimales. Por ejemplo: 10.5, 25.75 o 100.25.
+
+## ¿Qué es el casting?
+
+El casting es la conversión de un tipo de dato a otro tipo de dato.
+
+Por ejemplo, cuando queremos realizar una división real entre dos números enteros, podemos convertir uno de ellos a `double`:
+
+```csharp
+double resultado = (double)numero1 / numero2;
